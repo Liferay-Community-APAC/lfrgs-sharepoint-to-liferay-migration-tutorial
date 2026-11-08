@@ -69,6 +69,7 @@ plans and verifies. The CLI copies the records.
 | 11 | [Validation and cutover](docs/11-validation-and-cutover.md) | Reconcile, agent-assisted spot checks, delta re-runs, cutover |
 | 13 | [SharePoint Server](docs/13-sharepoint-server.md) | On-premises SE, 2019 and 2016: NTLM, REST and the client object model, what differs |
 | 14 | [Mock SharePoint in Docker](docs/14-mock-sharepoint.md) | Try or test the whole pipeline without a tenant or a farm |
+| — | [Testing SharePoint 2016 and 2019](docs/TESTING-SHAREPOINT-2016-2019.md) | Step-by-step checks of the 2016/2019 code paths against the mock, with expected output |
 | — | [Validation checklist](docs/VALIDATION-CHECKLIST.md) | API assumptions to confirm against a real 2026.Q3 instance |
 | — | [Troubleshooting](docs/12-troubleshooting.md) | Common errors and fixes |
 

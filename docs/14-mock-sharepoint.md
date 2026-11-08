@@ -30,6 +30,9 @@ The server modes check NTLM credentials for real (with `pyspnego`), so a wrong p
 as IIS would answer. They also answer `400` to a `$select` naming a column the list doesn't have,
 and require a form digest for the client object model, as SharePoint does.
 
+For a step-by-step test of the 2016 and 2019 modes with expected output, see
+[Testing SharePoint 2016 and 2019](TESTING-SHAREPOINT-2016-2019.md).
+
 ## 14.2 Migrate from it
 
 ```bash
